@@ -21,7 +21,7 @@
     const string ofxStandardPaths::AppDataLocation = "";
     const string ofxStandardPaths::AppLocalDataLocation = "";
     const string ofxStandardPaths::AppConfigLocation = "";
-#elif TARGET_LINUX
+#elif defined(TARGET_LINUX)
     const string ofxStandardPaths::DesktopLocation = "~/Desktop";
     const string ofxStandardPaths::DocumentsLocation = "~/Documents";
     const string ofxStandardPaths::FontsLocation = "~/.fonts";
@@ -42,7 +42,7 @@
     const string ofxStandardPaths::AppDataLocation = "";
     const string ofxStandardPaths::AppLocalDataLocation = "";
     const string ofxStandardPaths::AppConfigLocation = "";
-#elif TARGET_WIN32
+#elif defined(TARGET_WIN32)
     const string ofxStandardPaths::DesktopLocation = "";
     const string ofxStandardPaths::DocumentsLocation = "";
     const string ofxStandardPaths::FontsLocation = "";
@@ -63,6 +63,6 @@
     const string ofxStandardPaths::AppDataLocation = "";
     const string ofxStandardPaths::AppLocalDataLocation = "";
     const string ofxStandardPaths::AppConfigLocation = "";
-#elif TARGET_ANDROID
-#elif TARGET_IOS
+#elif defined(TARGET_ANDROID)
+#elif defined(TARGET_IOS)
 #endif
