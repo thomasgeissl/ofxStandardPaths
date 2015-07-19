@@ -12,8 +12,8 @@
     const string ofxStandardPaths::HomeLocation = "~";
     const string ofxStandardPaths::DataLocation = "";
     const string ofxStandardPaths::CacheLocation = "";
-    const string ofxStandardPaths::GenericDataLocation = "/Library/Application Support";
-    const string ofxStandardPaths::RuntimeDataLocation = "~/Library/Application Support";
+    const string ofxStandardPaths::GenericDataLocation = "/Library/Application\ Support";
+    const string ofxStandardPaths::RuntimeDataLocation = "~/Library/Application\ Support";
     const string ofxStandardPaths::ConfigLocation = "~/Library/Preferences";
     const string ofxStandardPaths::GenericConfigLocation = "~/Library/Preferences";
     const string ofxStandardPaths::DownloadLocation = "~/Downloads";
